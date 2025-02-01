@@ -1,0 +1,27 @@
+{
+    "common": {
+        "search": "Buscar",
+        "filter": "Filtrar",
+        "loading": "Cargando...",
+        "error": "Error",
+        "success": "Éxito",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "delete": "Eliminar",
+        "edit": "Editar"
+    },
+    "dashboard": {
+        "title": "Panel de Control",
+        "products": "Productos",
+        "transactions": "Transacciones",
+        "analytics": "Análisis",
+        "settings": "Configuración"
+    },
+    "products": {
+        "addNew": "Añadir Nuevo Producto",
+        "name": "Nombre del Producto",
+        "price": "Precio",
+        "quantity": "Cantidad",
+        "status": "Estado"
+    }
+} 

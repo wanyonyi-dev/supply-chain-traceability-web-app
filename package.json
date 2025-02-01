@@ -1,0 +1,28 @@
+{
+  "name": "block-chain-project",
+  "version": "1.0.0",
+  "main": "config-overrides.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7",
+    "truffle": "^5.11.5",
+    "truffle-assertions": "^0.9.2"
+  }
+}

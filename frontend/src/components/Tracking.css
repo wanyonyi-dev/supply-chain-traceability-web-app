@@ -1,0 +1,51 @@
+.tracking-history {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-top: 24px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 16px 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -8px;
+    top: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #6366f1;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #6366f1;
+}
+
+.timeline-content {
+    background: #f8f9fa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.timeline-connector {
+    position: absolute;
+    left: 0;
+    top: 36px;
+    bottom: -16px;
+    width: 2px;
+    background: #e0e0e0;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+} 

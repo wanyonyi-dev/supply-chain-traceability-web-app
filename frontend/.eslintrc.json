@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "no-restricted-globals": ["error", {
+      "name": "self",
+      "message": "Use window instead."
+    }]
+  },
+  "overrides": [
+    {
+      "files": ["serviceWorker.js"],
+      "rules": {
+        "no-restricted-globals": "off"
+      }
+    }
+  ]
+} 

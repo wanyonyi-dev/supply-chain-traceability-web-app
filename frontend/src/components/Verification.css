@@ -1,0 +1,48 @@
+.verification-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.verification-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.verification-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.verification-input button {
+    padding: 10px 20px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.verification-result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.qr-code {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+} 
